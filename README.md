@@ -52,3 +52,88 @@ It is a way to organize and structure code to enhance maintainability, modularit
 ➔	removebook: With the help of this method the book which is present in the library can be removed.
 
 ➔	updateBookPricebyBookName: With the help of this method the price of the book which is present in the library can be updated.
+
+Entities
+
+Book
+
+• Attributes:-
+
+• bookName: Name of the book  
+• bookPrice: Price of the book  
+• authorName: Name of the author 
+
+• Methods:-
+
+• getBookName(): Returns the name of the book  
+• setBookName(String bookName): Sets the name of the book  
+• getBookPrice(): Returns the price of the book  
+• setBookPrice(double bookPrice): Sets the price of the book  
+• getAuthorName(): Returns the name of the author  
+• setAuthorName(String authorName): Sets the name of the author  
+• toString(): Returns a string representation of the book  
+
+Library
+
+• Attributes:-
+
+• libraryName: Name of the library    
+• libraryAddress: Address of the library    
+• pincode: Pincode of the library location  
+• books: List of books in the library  
+
+• Methods:-
+
+• getBooks(): Returns the list of books in the library  
+• setBooks(List<Book> books): Sets the list of books in the library  
+• getLibraryName(): Returns the name of the library  
+• setLibraryName(String libraryName): Sets the name of the library  
+• getLibraryAddress(): Returns the address of the library  
+• setLibraryAddress(String libraryAddress): Sets the address of the library  
+• getPincode(): Returns the pincode of the library location  
+• setPincode(int pincode): Sets the pincode of the library location  
+
+Functionality
+
+• Add a book to the library
+
+• Update book details
+
+• Remove a book from the library
+
+• Get book details
+
+System Requirements :
+
+Java Runtime Environment (JRE) installed on your computer.
+
+                                           User Interaction :
+                                           
+The application will greet you with a welcome message and prompt you to enter the library's details during the first run:
+
+<img width="349" alt="image" src="https://github.com/AmitYadav-2002/LIBRARY-MANAGEMENT-SYSTEM/assets/162001129/ee1333e7-9884-4463-b639-9527103f8c8c">
+
+Once the library details are set, the main menu appears:
+
+<img width="355" alt="image" src="https://github.com/AmitYadav-2002/LIBRARY-MANAGEMENT-SYSTEM/assets/162001129/07eb5273-94d9-4e56-bfab-d97690be91e4">
+
+The application will prompt you to enter details for the new book :
+
+<img width="348" alt="image" src="https://github.com/AmitYadav-2002/LIBRARY-MANAGEMENT-SYSTEM/assets/162001129/a699c674-7604-43d9-aa22-58214ef0b013">
+
+Choose option 2: "Remove book"
+
+<img width="351" alt="image" src="https://github.com/AmitYadav-2002/LIBRARY-MANAGEMENT-SYSTEM/assets/162001129/c33a0bc0-57c4-4f03-a204-9a1ceccb7a6c">
+
+Choose option 3: "Update book"
+
+![Uploading image.png…]()
+
+Choose option 4: "Get book" :
+
+![Uploading image.png…]()
+
+
+
+
+
