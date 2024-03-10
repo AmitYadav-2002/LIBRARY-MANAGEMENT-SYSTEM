@@ -1,6 +1,6 @@
-                                      Library Management System
-                                      
-                                          Introduction:
+Library Management System
+                                  
+Introduction:
                                    
 Library Management System is a software which is designed to perform various operations in a library. This project helps the user and the staff to manage the library through digital mode. It is user friendly and efficient to use.
 
@@ -113,7 +113,7 @@ System Requirements :
 
 Java Runtime Environment (JRE) installed on your computer.
 
-                                           User Interaction :
+User Interaction :
 
 The application will greet you with a welcome message and prompt you to enter the library's details during the first run:
 
